@@ -1,6 +1,13 @@
 .header {
-  width: 255px;
-  height: 69px;
   margin-top: 30px;
   margin-left: 513px;
+  margin-right: 513px;
+  width: 255px;
+  height: 69px;
+  background-color: bisque;
+}
+
+.header__logo {
+  justify-content: center;
+  background-color: aqua;
 }

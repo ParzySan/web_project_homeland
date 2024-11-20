@@ -1,8 +1,15 @@
-.lead__content {
+.lead__content-img {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-left: 148px;
+  margin-right: 148px;
   color: white;
+  background-color: antiquewhite;
+}
+.lead__content-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
 }
 .lead__title {
   width: 720px;
@@ -12,7 +19,15 @@
   text-align: center;
 }
 
+.lead__text {
+  width: 720px;
+  height: 20px;
+  text-align: center;
+
+  background-color: aquamarine;
+}
+
 .lead__image {
-  width: 984px;
-  height: 815px;
+  width: 100%;
+  height: 983px;
 }

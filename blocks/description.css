@@ -1,3 +1,13 @@
 .description {
   color: white;
+  display: flex;
+  flex-direction: column;
+  width: 830px;
+  height: 610px;
+  margin-left: 148px;
+}
+
+.description__quote {
+  text-align: end;
+  margin-top: 10px;
 }

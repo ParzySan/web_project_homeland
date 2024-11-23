@@ -5,9 +5,32 @@
   width: 830px;
   height: 610px;
   margin-left: 148px;
+  margin-top: 92px;
+  margin-right: 154px;
+  margin-bottom: 132px;
 }
 
+.description__title {
+  font-family: "Inter bold";
+  font-size: 54px;
+  line-height: 58px;
+}
+.description__text {
+  font-family: "Inter";
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 40px;
+}
+.description__text-text {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 26px;
+}
 .description__quote {
   text-align: end;
   margin-top: 10px;
+
+  font-family: "Inter";
+  font-size: 24px;
+  line-height: 34px;
 }

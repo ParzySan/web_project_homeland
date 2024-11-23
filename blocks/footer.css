@@ -1,3 +1,11 @@
 .footer {
   color: white;
+  margin-left: 543px;
+  margin-bottom: 24px;
+  margin-top: 92px;
+}
+.footer__text {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 16px;
 }

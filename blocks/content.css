@@ -1,15 +1,15 @@
-.lead {
+.content {
   display: flex;
   flex-direction: column;
 }
-.lead__content-img {
+.content_img {
   display: flex;
   flex-direction: column;
   margin-left: 148px;
   margin-right: 148px;
   color: white;
 }
-.lead__content-text {
+.content_text {
   display: flex;
   flex-direction: column;
   margin-left: 280px;
@@ -18,7 +18,7 @@
   padding: 0;
   color: white;
 }
-.lead__title {
+.content__title {
   width: 720px;
   height: 200px;
   font-family: "Inter bold";
@@ -28,7 +28,7 @@
   margin-bottom: 0;
 }
 
-.lead__text {
+.content__text {
   width: 720px;
   height: 20px;
   font-family: "Inter";
@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-.lead__image {
+.content__image {
   width: 984px;
   height: 983px;
 }

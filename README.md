@@ -14,5 +14,3 @@
 
 4. l enlace a GitHub Pages.
    https://parzysan.github.io/web_project_homeland/
-
-(No entiendo los errores o por que no se pasan bien las estilos css)

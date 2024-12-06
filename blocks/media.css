@@ -270,6 +270,7 @@
   .location__image_style {
     width: 320px;
     height: 320px;
+    box-shadow: none;
   }
   .location__text {
     width: 288px;

@@ -79,7 +79,7 @@
     height: 264px;
     overflow: hidden;
   }
-  .location__list {
+  .location {
     margin-left: 24px;
     margin-right: 24px;
     width: 720px;
@@ -232,7 +232,7 @@
     height: 216px;
     overflow: hidden;
   }
-  .location__list {
+  .location {
     margin-left: 0;
     margin-right: 0;
     width: 320px;
@@ -242,16 +242,17 @@
   .location__title {
     width: 288px;
     height: 35px;
-    margin-left: 16px;
   }
   .location__title_style {
     font-size: 32px;
     line-height: 35px;
+    margin-left: 16px;
   }
   .location__content {
     width: 320px;
     height: auto;
     grid-template-columns: 1fr;
+    column-gap: 50px;
   }
   .location__art {
     margin-top: 0;
@@ -281,17 +282,20 @@
   .location__description {
     grid-column: 1;
     grid-row: 4;
+  }
+  .location__description_style {
     margin-left: 16px;
     margin-top: 30px;
   }
   .location__button {
     width: 288px;
     height: 48px;
+
+    order: 4;
+  }
+
+  .location__button_style {
     margin-left: 16px;
     margin-right: 16px;
-    margin-top: 30px;
-  }
-  .location_button {
-    order: 4;
   }
 }

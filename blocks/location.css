@@ -1,4 +1,4 @@
-.list__location {
+.location__list {
   display: flex;
   flex-direction: column;
   width: 987px;
@@ -8,13 +8,6 @@
   margin-top: 92px;
   margin-bottom: 90px;
   gap: 80px 0;
-}
-
-.location {
-  display: grid;
-
-  margin: 0;
-  padding: 0;
 }
 
 .location__content {
@@ -67,7 +60,7 @@
   box-shadow: 5px 5px 10px 0px #00000040;
   border-radius: 4px;
 }
-.button {
+.location__button {
   width: 289px;
   height: 48px;
   margin-top: 48px;

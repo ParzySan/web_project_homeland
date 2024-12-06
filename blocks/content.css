@@ -7,7 +7,6 @@
   flex-direction: column;
   margin-left: 148px;
   margin-right: 148px;
-  color: white;
 }
 .content_text {
   display: flex;
@@ -39,4 +38,5 @@
 
 .content__image {
   width: 984px;
+  box-shadow: 5px 5px 10px 0px #00000040;
 }

@@ -1,0 +1,18 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 16px;
+  padding: 0;
+  margin-right: 53px;
+  margin-left: 43px;
+  overflow: hidden;
+}
+
+.photo-grid__item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  overflow: hidden;
+}

@@ -67,6 +67,72 @@
     margin-left: 287px;
     margin-top: 88px;
   }
+  .photo-grid {
+    margin-top: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  .photo-grid__item {
+    width: 362px;
+    height: 264px;
+    overflow: hidden;
+  }
+  .list__location {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 720px;
+    height: auto;
+  }
+  .location__content {
+    width: 340px;
+    height: auto;
+    column-gap: 28px;
+  }
+
+  .location__title {
+    grid-column: 1;
+    grid-row: 1;
+    width: 340px;
+    height: 46px;
+  }
+  .location__title_style {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .location__image {
+  }
+
+  .location__image_style {
+    width: 340px;
+    height: 340px;
+  }
+  .button {
+    width: 289px;
+    height: 48px;
+  }
+  .location__button {
+  }
+  .location__text {
+    width: 352px;
+
+    margin-top: 0;
+  }
+  .location__art {
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .location__art-artistas {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .location__description {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 @media (max-width: 544px) {
@@ -155,5 +221,78 @@
     margin-left: 63px;
     margin-top: 24px;
     margin-right: 24px;
+  }
+  .photo-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 38px;
+  }
+  .photo-grid__item {
+    width: 288px;
+    height: 216px;
+    overflow: hidden;
+  }
+  .list__location {
+    margin-left: 0;
+    margin-right: 0;
+    width: 320px;
+    height: auto;
+  }
+
+  .location__title {
+    width: 288px;
+    height: 35px;
+    margin-left: 16px;
+  }
+  .location__title_style {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .location__content {
+    width: 320px;
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+  .location__art {
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .location__art-artistas {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .location__image {
+    grid-row: 3;
+    margin-top: 30px;
+  }
+  .location__image_style {
+    width: 320px;
+    height: 320px;
+  }
+  .location__text {
+    width: 288px;
+    margin-top: 30px;
+    grid-column: 1;
+    grid-row: 2;
+    order: 3;
+    margin-left: 16px;
+  }
+  .location__description {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: 16px;
+    margin-top: 30px;
+  }
+  .button {
+    width: 288px;
+    height: 48px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 30px;
+  }
+  .location_button {
+    order: 4;
   }
 }

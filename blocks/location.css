@@ -90,6 +90,7 @@
 .location__description {
   grid-row: 2 / span 4;
   order: 2;
+  margin-top: 48px;
 }
 
 .location__description_style {
@@ -97,7 +98,7 @@
   font-family: "Inter";
   font-size: 18px;
   line-height: 30px;
-  margin-top: 48px;
+  margin-top: 25px;
 }
 .location__text {
   order: 2;

@@ -50,6 +50,10 @@
   margin-top: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .location__button {
   width: 289px;
   height: 48px;
